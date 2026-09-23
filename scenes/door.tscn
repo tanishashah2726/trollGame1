@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c0rgsafm4obrb"]
+
+[ext_resource type="Script" uid="uid://cn4tocwkr87r0" path="res://scripts/door.gd" id="1_uvdjg"]
+[ext_resource type="Texture2D" uid="uid://cv71pncxtgpnt" path="res://assets/sprites/slime_green.png" id="2_83dcw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ngmaq"]
+size = Vector2(14, 16)
+
+[node name="Door" type="Area2D" unique_id=1930597550]
+z_index = 2
+script = ExtResource("1_uvdjg")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2031400939]
+texture = ExtResource("2_83dcw")
+region_enabled = true
+region_rect = Rect2(51, 30, 18, 21)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=340687085]
+shape = SubResource("RectangleShape2D_ngmaq")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

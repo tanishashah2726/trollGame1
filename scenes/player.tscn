@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://dgqwqaogrk02l"]
+
+[ext_resource type="Script" uid="uid://bb505cv7gxrtv" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://cg8fi6v1m74w" path="res://assets/sprites/slime_purple.png" id="2_g2els"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3vyb7"]
+atlas = ExtResource("2_g2els")
+region = Rect2(0, 24, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ngmaq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3vyb7")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g2els"]
+radius = 4.0
+
+[node name="Player" type="CharacterBody2D" unique_id=916710193]
+collision_layer = 2
+script = ExtResource("1_g2els")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=398026537]
+position = Vector2(0, -12)
+sprite_frames = SubResource("SpriteFrames_ngmaq")
+animation = &"idle"
+frame_progress = 0.23867051
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1059850347]
+position = Vector2(0, -5)
+shape = SubResource("CircleShape2D_g2els")
