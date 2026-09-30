@@ -14,6 +14,10 @@ config/name="trollGame"
 run/main_scene="uid://pjglpnjksk16"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
+[autoload]
+
+LevelCore="*uid://bgaqo4rv2xnjp"
+
 [display]
 
 window/stretch/mode="canvas_items"

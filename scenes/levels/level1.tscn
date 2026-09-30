@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ccehrymiccav2" path="res://assets/sprites/world_tileset.png" id="2_dywbp"]
 [ext_resource type="PackedScene" uid="uid://c58c5ytasvdkp" path="res://scenes/other/spike.tscn" id="3_1seuy"]
 [ext_resource type="PackedScene" uid="uid://c0rgsafm4obrb" path="res://scenes/other/door.tscn" id="4_2r1tl"]
+[ext_resource type="Script" uid="uid://mmqo68p2m7lr" path="res://scripts/red.gd" id="5_dywbp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yqjtg"]
 texture = ExtResource("2_dywbp")
@@ -146,6 +147,7 @@ sources/0 = SubResource("TileSetAtlasSource_yqjtg")
 
 [node name="Player" parent="." unique_id=916710193 instance=ExtResource("1_bfxgj")]
 z_index = 100
+position = Vector2(441, -142)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=431998555]
 zoom = Vector2(4, 4)
@@ -168,14 +170,6 @@ tile_set = SubResource("TileSet_ttx4m")
 
 [node name="Spikes" type="Node" parent="." unique_id=1792474036]
 
-[node name="Spike" parent="Spikes" unique_id=882576474 instance=ExtResource("3_1seuy")]
-z_index = 2
-position = Vector2(168, -56)
-
-[node name="Spike2" parent="Spikes" unique_id=853304004 instance=ExtResource("3_1seuy")]
-z_index = 2
-position = Vector2(104, -136)
-
 [node name="Spike3" parent="Spikes" unique_id=1327183382 instance=ExtResource("3_1seuy")]
 z_index = 2
 position = Vector2(200, -40)
@@ -187,3 +181,16 @@ position = Vector2(312, 24)
 [node name="Door" parent="." unique_id=1930597550 instance=ExtResource("4_2r1tl")]
 position = Vector2(506, -126)
 collision_mask = 2
+
+[node name="Red" type="Node2D" parent="." unique_id=1691745803]
+script = ExtResource("5_dywbp")
+
+[node name="Spike" parent="Red" unique_id=882576474 instance=ExtResource("3_1seuy")]
+z_index = 2
+position = Vector2(168, -56)
+
+[node name="Spike2" parent="Red" unique_id=853304004 instance=ExtResource("3_1seuy")]
+z_index = 2
+position = Vector2(104, -136)
+
+[connection signal="body_entered" from="Door" to="." method="_on_door_body_entered"]

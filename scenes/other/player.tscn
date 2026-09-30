@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bb505cv7gxrtv" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://cg8fi6v1m74w" path="res://assets/sprites/slime_purple.png" id="2_g2els"]
+[ext_resource type="PackedScene" uid="uid://brdwwpiap2608" path="res://scenes/other/glasses.tscn" id="3_8ywir"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3vyb7"]
 atlas = ExtResource("2_g2els")
@@ -34,3 +35,7 @@ frame_progress = 0.23867051
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1059850347]
 position = Vector2(0, -5)
 shape = SubResource("CircleShape2D_g2els")
+
+[node name="glasses" parent="." unique_id=837312431 instance=ExtResource("3_8ywir")]
+position = Vector2(1, -8)
+scale = Vector2(0.5, 0.5)
