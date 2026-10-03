@@ -10,3 +10,7 @@ script = ExtResource("1_w6uhf")
 texture = ExtResource("1_b7coi")
 region_enabled = true
 region_rect = Rect2(160, 16, 8, 11)
+
+[node name="Timer" type="Timer" parent="." unique_id=384938936]
+wait_time = 10.0
+one_shot = true
