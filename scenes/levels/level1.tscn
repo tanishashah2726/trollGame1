@@ -3,9 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://dgqwqaogrk02l" path="res://scenes/other/player.tscn" id="1_bfxgj"]
 [ext_resource type="Texture2D" uid="uid://ccehrymiccav2" path="res://assets/sprites/world_tileset.png" id="2_dywbp"]
 [ext_resource type="PackedScene" uid="uid://c58c5ytasvdkp" path="res://scenes/other/spike.tscn" id="3_1seuy"]
-[ext_resource type="Script" uid="uid://e7yu3hp42tqu" path="res://scripts/red.gd" id="3_2r1tl"]
+[ext_resource type="Script" uid="uid://e7yu3hp42tqu" path="res://scripts/colors/red.gd" id="3_2r1tl"]
 [ext_resource type="PackedScene" uid="uid://c0rgsafm4obrb" path="res://scenes/other/door.tscn" id="4_2r1tl"]
-[ext_resource type="Script" uid="uid://chfru8lexcbe5" path="res://scripts/blue.gd" id="5_dywbp"]
+[ext_resource type="Script" uid="uid://chfru8lexcbe5" path="res://scripts/colors/blue.gd" id="5_dywbp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yqjtg"]
 texture = ExtResource("2_dywbp")
