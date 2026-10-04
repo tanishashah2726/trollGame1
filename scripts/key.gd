@@ -6,7 +6,6 @@ var current_offset = follow_offset
 
 var target: Node2D = null
 
-
 func _ready() -> void:
 	LevelCore.can_unlock = false
 

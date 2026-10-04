@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bglfs2sssrkvp"]
+
+[ext_resource type="Script" uid="uid://4dgshvawh62t" path="res://scripts/pause_menu.gd" id="1_ydy6h"]
+
+[node name="pause_menu" type="CanvasLayer" unique_id=462829160]
+script = ExtResource("1_ydy6h")
+
+[node name="level_menu_btn" type="Button" parent="." unique_id=212584663]
+offset_left = 5.0
+offset_top = 7.0
+offset_right = 91.0
+offset_bottom = 87.0
+
+[connection signal="pressed" from="level_menu_btn" to="." method="_on_level_menu_btn_pressed"]

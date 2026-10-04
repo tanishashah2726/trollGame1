@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://chfru8lexcbe5" path="res://scripts/colors/blue.gd" id="6_k0mew"]
 [ext_resource type="PackedScene" uid="uid://cxc7ciq1yyqk5" path="res://scenes/other/key.tscn" id="7_dj4wq"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8qukl"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dj4wq"]
 texture = ExtResource("2_d5djh")
 0:0/0 = 0
 1:0/0 = 0
@@ -143,7 +143,7 @@ texture = ExtResource("2_d5djh")
 
 [sub_resource type="TileSet" id="TileSet_3p04p"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_8qukl")
+sources/0 = SubResource("TileSetAtlasSource_dj4wq")
 
 [node name="Level2" type="Node2D" unique_id=2067035691]
 
