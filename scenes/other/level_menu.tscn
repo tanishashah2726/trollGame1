@@ -29,6 +29,12 @@ layout_mode = 2
 text = "2"
 metadata/_edit_use_anchors_ = true
 
+[node name="Button3" type="Button" parent="Buttons" unique_id=2062479424]
+z_index = 2
+layout_mode = 2
+text = "3"
+metadata/_edit_use_anchors_ = true
+
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1748413553]
 offset_left = -156.0
 offset_top = -83.0
@@ -39,3 +45,4 @@ color = Color(0.95321125, 0.7783057, 0.6844566, 1)
 
 [connection signal="pressed" from="Buttons/Button1" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Buttons/Button2" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Buttons/Button3" to="." method="_on_button_pressed"]
