@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://bb505cv7gxrtv" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://cg8fi6v1m74w" path="res://assets/sprites/slime_purple.png" id="2_g2els"]
-[ext_resource type="PackedScene" uid="uid://brdwwpiap2608" path="res://scenes/other/glasses.tscn" id="3_8ywir"]
-[ext_resource type="PackedScene" uid="uid://bglfs2sssrkvp" path="res://scenes/other/pause_menu.tscn" id="4_hv66l"]
+[ext_resource type="PackedScene" uid="uid://brdwwpiap2608" path="res://scenes/objects/glasses.tscn" id="3_8ywir"]
+[ext_resource type="PackedScene" uid="uid://bglfs2sssrkvp" path="res://scenes/menus/pause_menu.tscn" id="4_hv66l"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3vyb7"]
 atlas = ExtResource("2_g2els")

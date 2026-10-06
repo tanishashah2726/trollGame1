@@ -1,11 +1,11 @@
 [gd_scene format=4 uid="uid://u4b7ucemb2cy"]
 
-[ext_resource type="PackedScene" uid="uid://dgqwqaogrk02l" path="res://scenes/other/player.tscn" id="1_sru4k"]
+[ext_resource type="PackedScene" uid="uid://dgqwqaogrk02l" path="res://scenes/player.tscn" id="1_sru4k"]
 [ext_resource type="Texture2D" uid="uid://ccehrymiccav2" path="res://assets/sprites/world_tileset.png" id="2_t275y"]
-[ext_resource type="PackedScene" uid="uid://c0rgsafm4obrb" path="res://scenes/other/door.tscn" id="3_f5jb5"]
-[ext_resource type="PackedScene" uid="uid://cxc7ciq1yyqk5" path="res://scenes/other/key.tscn" id="4_f7rt6"]
+[ext_resource type="PackedScene" uid="uid://c0rgsafm4obrb" path="res://scenes/objects/door.tscn" id="3_f5jb5"]
+[ext_resource type="PackedScene" uid="uid://cxc7ciq1yyqk5" path="res://scenes/objects/key.tscn" id="4_f7rt6"]
 [ext_resource type="Script" uid="uid://e7yu3hp42tqu" path="res://scripts/colors/red.gd" id="5_8w0pe"]
-[ext_resource type="PackedScene" uid="uid://c58c5ytasvdkp" path="res://scenes/other/spike.tscn" id="6_7eb4w"]
+[ext_resource type="PackedScene" uid="uid://c58c5ytasvdkp" path="res://scenes/objects/spike.tscn" id="6_7eb4w"]
 [ext_resource type="Script" uid="uid://chfru8lexcbe5" path="res://scripts/colors/blue.gd" id="7_hadiw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_frjko"]

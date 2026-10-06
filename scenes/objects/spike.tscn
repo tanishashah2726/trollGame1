@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c58c5ytasvdkp"]
 
 [ext_resource type="Texture2D" uid="uid://dbudo5hwt4o1k" path="res://assets/sprites/cactiSpike.png" id="1_7a7y0"]
-[ext_resource type="PackedScene" uid="uid://cellise0q6oon" path="res://scenes/other/killzone.tscn" id="2_tggh8"]
+[ext_resource type="PackedScene" uid="uid://cellise0q6oon" path="res://scenes/objects/killzone.tscn" id="2_tggh8"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ngmaq"]
 size = Vector2(12, 8)

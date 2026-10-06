@@ -1,12 +1,12 @@
 [gd_scene format=4 uid="uid://qqv0e4xxdsds"]
 
-[ext_resource type="PackedScene" uid="uid://dgqwqaogrk02l" path="res://scenes/other/player.tscn" id="1_niitk"]
+[ext_resource type="PackedScene" uid="uid://dgqwqaogrk02l" path="res://scenes/player.tscn" id="1_niitk"]
 [ext_resource type="Texture2D" uid="uid://ccehrymiccav2" path="res://assets/sprites/world_tileset.png" id="2_d5djh"]
 [ext_resource type="Script" uid="uid://e7yu3hp42tqu" path="res://scripts/colors/red.gd" id="3_dj4wq"]
-[ext_resource type="PackedScene" uid="uid://c58c5ytasvdkp" path="res://scenes/other/spike.tscn" id="3_ok6xr"]
-[ext_resource type="PackedScene" uid="uid://c0rgsafm4obrb" path="res://scenes/other/door.tscn" id="4_dj4wq"]
+[ext_resource type="PackedScene" uid="uid://c58c5ytasvdkp" path="res://scenes/objects/spike.tscn" id="3_ok6xr"]
+[ext_resource type="PackedScene" uid="uid://c0rgsafm4obrb" path="res://scenes/objects/door.tscn" id="4_dj4wq"]
 [ext_resource type="Script" uid="uid://chfru8lexcbe5" path="res://scripts/colors/blue.gd" id="6_k0mew"]
-[ext_resource type="PackedScene" uid="uid://cxc7ciq1yyqk5" path="res://scenes/other/key.tscn" id="7_dj4wq"]
+[ext_resource type="PackedScene" uid="uid://cxc7ciq1yyqk5" path="res://scenes/objects/key.tscn" id="7_dj4wq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dj4wq"]
 texture = ExtResource("2_d5djh")

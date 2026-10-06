@@ -13,7 +13,7 @@ func _ready() -> void:
 		num+=1
 		
 	unlock_button()
-		
+	LevelCore.index = 0
 
 func _on_button_pressed(level_path: String) -> void:
 	get_tree().change_scene_to_file(level_path)

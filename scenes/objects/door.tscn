@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c0rgsafm4obrb"]
 
-[ext_resource type="Script" uid="uid://cn4tocwkr87r0" path="res://scripts/door.gd" id="1_uvdjg"]
+[ext_resource type="Script" uid="uid://cn4tocwkr87r0" path="res://scripts/objects/door.gd" id="1_uvdjg"]
 [ext_resource type="Texture2D" uid="uid://cv71pncxtgpnt" path="res://assets/sprites/slime_green.png" id="2_83dcw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ngmaq"]

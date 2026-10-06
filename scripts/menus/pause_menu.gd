@@ -16,7 +16,9 @@ func _process(delta: float) -> void:
 			get_tree().paused = true
 
 func _on_level_menu_btn_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/other/level_menu.tscn")
+	pause_menu.visible = false
+	get_tree().paused = false
+	get_tree().change_scene_to_file("res://scenes/menus/level_menu.tscn")
 
 func _on_resume_btn_pressed() -> void:
 	pause_menu.visible = false

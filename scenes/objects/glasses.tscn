@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://brdwwpiap2608"]
 
 [ext_resource type="Texture2D" uid="uid://ccehrymiccav2" path="res://assets/sprites/world_tileset.png" id="1_b7coi"]
-[ext_resource type="Script" uid="uid://kgpaithpx371" path="res://scripts/glasses.gd" id="1_w6uhf"]
+[ext_resource type="Script" uid="uid://kgpaithpx371" path="res://scripts/objects/glasses.gd" id="1_w6uhf"]
 
 [node name="glasses" type="Node2D" unique_id=837312431]
 script = ExtResource("1_w6uhf")

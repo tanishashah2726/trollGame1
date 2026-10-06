@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://csrqp5el8ylm2"]
 
-[ext_resource type="Script" uid="uid://b0ww3lsmi4o54" path="res://scripts/level_menu.gd" id="1_yl4fo"]
+[ext_resource type="Script" uid="uid://b0ww3lsmi4o54" path="res://scripts/menus/level_menu.gd" id="1_yl4fo"]
 
 [node name="levelMenu" type="Node2D" unique_id=2097195839]
 script = ExtResource("1_yl4fo")
@@ -8,6 +8,15 @@ script = ExtResource("1_yl4fo")
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1491536758]
 position = Vector2(0, 1)
 zoom = Vector2(4, 4)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1748413553]
+z_index = -1
+offset_left = -156.0
+offset_top = -83.0
+offset_right = 153.0
+offset_bottom = 90.0
+mouse_filter = 2
+color = Color(0.95321125, 0.7783057, 0.6844566, 1)
 
 [node name="Buttons" type="GridContainer" parent="." unique_id=906942122]
 z_index = 2
@@ -34,14 +43,6 @@ z_index = 2
 layout_mode = 2
 text = "3"
 metadata/_edit_use_anchors_ = true
-
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1748413553]
-offset_left = -156.0
-offset_top = -83.0
-offset_right = 153.0
-offset_bottom = 90.0
-mouse_filter = 2
-color = Color(0.95321125, 0.7783057, 0.6844566, 1)
 
 [connection signal="pressed" from="Buttons/Button1" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Buttons/Button2" to="." method="_on_button_pressed"]
