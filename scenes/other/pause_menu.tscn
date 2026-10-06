@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://4dgshvawh62t" path="res://scripts/pause_menu.gd" id="1_ydy6h"]
 
 [node name="pause_menu" type="CanvasLayer" unique_id=462829160]
+process_mode = 3
 script = ExtResource("1_ydy6h")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1246155546]
@@ -11,7 +12,7 @@ offset_left = 349.0
 offset_top = 59.0
 offset_right = 859.0
 offset_bottom = 599.0
-color = Color(0.98321396, 0.7209982, 0.65976423, 1)
+color = Color(0.9843137, 0.72156864, 0.65882355, 0.72156864)
 
 [node name="BoxContainer" type="BoxContainer" parent="." unique_id=909653826]
 offset_left = 489.0
